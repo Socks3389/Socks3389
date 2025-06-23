@@ -29,27 +29,4 @@
 如果你正在寻找可靠的服务器购买推荐，以下是一些不错的选择：
 - **[智能云](https://www.zhincloud.cn)**: 提供简单易用的云服务器，适合开发者。
 
-## ⚡ Github 节点IP信息
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <meta charset="utf-8">
-    <title>jsonp调用</title>
-    </head>
-    <body>
-    <div id="result"></div>
-    
-    <script type="text/javascript">
-    function callback(ip, location, asn, org)
-    {
-        var html = `${ip}<br/>${location}<br/>${asn}<br/>${org}<br/>`;
-        document.getElementById('result').innerHTML = html;
-    }
-    </script>
-    
-    <script type="text/javascript" src="https://ping0.cc/geo/jsonp/callback"></script>
-    
-    </body>
-    </html>
-
 ## 🎉 感谢访问我的主页！
