@@ -1,9 +1,9 @@
 # 👋 你好，欢迎来到我的 GitHub 主页！
 
-## 📈 我的 GitHub 统计
-![GitHub 统计](https://github-readme-stats.vercel.app/api?username=Socks3389&show_icons=true&theme=radical)
+// ## 📈 我的 GitHub 统计
+// ![GitHub 统计](https://github-readme-stats.vercel.app/api?username=Socks3389&show_icons=true&theme=radical)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Socks3389&layout=compact&theme=radical)
+// ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Socks3389&layout=compact&theme=radical)
 
 ## 🌟 关于我
 - 🔭 我正在开发：一些有趣的项目，探索新技术
@@ -14,19 +14,20 @@
 - 📫 如何联系我：通过 [邮箱](mailto:socks@kmailxin) 或 [QQ](http://wpa.qq.com/msgrd?v=3&uin=2966734846&site=qq&menu=yes)
 
 ## 🛠️ 技术栈
-- **前端**: HTML, CSS, JavaScript
+- **前端**: HTML, CSS, JavaScript，NodeJS，NextJS
 - **后端**: Golang, Python, php，Java
-- **数据库**: MySQL
+- **数据库**: MySQL，Redis，MongoDB，PostgreSQL
 - **工具**: Git, Docker, VS Code，VMware
 
 
 ## 📂 项目展示
-- [项目1](https://github.com/Socks3389/proxy_pool/) - ProxyPool 爬虫代理IP池（优化版）
-- [项目2](https://github.com/Socks3389/go-install) - 交互式一键安装Golang语言包
-- [项目3](https://github.com/Socks3389/cz88-api) - CZ88-Api
+- [代理IP爬虫](https://github.com/Socks3389/proxy_pool/) - ProxyPool 爬虫代理IP池（优化版）
+- [一键Golang](https://github.com/Socks3389/go-install) - 交互式一键安装Golang语言包
+- [纯真IP数据库API](https://github.com/Socks3389/cz88-api) - CZ88-Api
 
 ## ☁️ 服务器推荐
 如果你正在寻找可靠的服务器购买推荐，以下是一些不错的选择：
 - **[智能云](https://www.zhincloud.cn)**: 提供简单易用的云服务器，适合开发者。
+- **[Verkrons](https://verkrons.com)**: 为全球开发者提供匿名云服务。
 
 ## 🎉 感谢访问我的主页！
