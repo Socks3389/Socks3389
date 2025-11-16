@@ -1,10 +1,5 @@
 # 👋 你好，欢迎来到我的 GitHub 主页！
 
-// ## 📈 我的 GitHub 统计
-// ![GitHub 统计](https://github-readme-stats.vercel.app/api?username=Socks3389&show_icons=true&theme=radical)
-
-// ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Socks3389&layout=compact&theme=radical)
-
 ## 🌟 关于我
 - 🔭 我正在开发：一些有趣的项目，探索新技术
 - 🌱 我正在学习：机器学习、区块链和云计算
@@ -27,7 +22,7 @@
 
 ## ☁️ 服务器推荐
 如果你正在寻找可靠的服务器购买推荐，以下是一些不错的选择：
-- **[智能云](https://www.zhincloud.cn)**: 提供简单易用的云服务器，适合开发者。
+
 - **[Verkrons](https://verkrons.com)**: 为全球开发者提供匿名云服务。
 
 ## 🎉 感谢访问我的主页！
