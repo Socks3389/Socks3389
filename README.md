@@ -19,10 +19,11 @@
 - [代理IP爬虫](https://github.com/Socks3389/proxy_pool/) - ProxyPool 爬虫代理IP池（优化版）
 - [一键Golang](https://github.com/Socks3389/go-install) - 交互式一键安装Golang语言包
 - [纯真IP数据库API](https://github.com/Socks3389/cz88-api) - CZ88-Api
+- [Pi Admin](https://github.com/Socks3389/cz88-api) - Pi Node监控管理系统
 
 ## ☁️ 服务器推荐
 如果你正在寻找可靠的服务器购买推荐，以下是一些不错的选择：
 
-- **[Verkrons](https://verkrons.com)**: 为全球开发者提供匿名云服务。
+- **[智能云](https://zhincloud.cn)**: 为全球开发者提供海外匿名云服务。
 
 ## 🎉 感谢访问我的主页！
