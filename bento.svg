@@ -1,0 +1,113 @@
+<svg fill="none" viewBox="0 0 1200 540" width="1200" height="540" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="card-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D121F" />
+      <stop offset="100%" stop-color="#05070C" />
+    </linearGradient>
+    <linearGradient id="accent-card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#17153B" />
+      <stop offset="100%" stop-color="#060811" />
+    </linearGradient>
+    <linearGradient id="border-subtle" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.03" />
+    </linearGradient>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif; }
+      .mono { font-family: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    </style>
+  </defs>
+
+  
+  
+  <g transform="translate(0, 0)">
+    <rect width="590" height="200" rx="22" fill="url(#card-grad)" stroke="url(#border-subtle)" stroke-width="1.5" />
+    <circle cx="540" cy="40" r="85" fill="#38BDF8" fill-opacity="0.08" />
+    
+    <text x="32" y="42" class="mono" font-size="11.5" font-weight="700" fill="#38BDF8" letter-spacing="1.2">01 // DISTRIBUTED CONTROL PLANE</text>
+    <text x="32" y="78" class="sans" font-size="26" font-weight="800" fill="#F8FAFC">ClawMesh Orchestrator</text>
+    <text x="32" y="110" class="sans" font-size="14.5" fill="#94A3B8">Centralized automation platform managing 10,000+ edge compute</text>
+    <text x="32" y="132" class="sans" font-size="14.5" fill="#94A3B8">nodes, multi-hop FRP relays, and self-healing proxy topologies.</text>
+
+    <g transform="translate(32, 154)">
+      <rect x="0" y="0" width="64" height="26" rx="7" fill="#38BDF8" fill-opacity="0.12" />
+      <text x="32" y="17" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#7DD3FC">Go</text>
+      <rect x="74" y="0" width="72" height="26" rx="7" fill="#38BDF8" fill-opacity="0.12" />
+      <text x="110" y="17" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#7DD3FC">Rust</text>
+      <rect x="156" y="0" width="118" height="26" rx="7" fill="#FFFFFF" fill-opacity="0.05" />
+      <text x="215" y="17" text-anchor="middle" class="mono" font-size="11.5" fill="#CBD5E1">3-Tier Mesh</text>
+    </g>
+  </g>
+
+  
+  <g transform="translate(610, 0)">
+    <rect width="590" height="200" rx="22" fill="url(#accent-card)" stroke="url(#border-subtle)" stroke-width="1.5" />
+    <circle cx="540" cy="40" r="85" fill="#C084FC" fill-opacity="0.12" />
+
+    <text x="32" y="42" class="mono" font-size="11.5" font-weight="700" fill="#E879F9" letter-spacing="1.2">02 // HIGH-CONCURRENCY AI GATEWAY</text>
+    <text x="32" y="78" class="sans" font-size="26" font-weight="800" fill="#F8FAFC">ZhinAPI Model Router</text>
+    <text x="32" y="110" class="sans" font-size="14.5" fill="#94A3B8">Unified LLM aggregation gateway (api.zhincloud.cn) with upstream</text>
+    <text x="32" y="132" class="sans" font-size="14.5" fill="#94A3B8">load balancing, protocol translation &amp; autonomous MCP workflows.</text>
+
+    <g transform="translate(32, 154)">
+      <rect x="0" y="0" width="102" height="26" rx="7" fill="#E879F9" fill-opacity="0.15" />
+      <text x="51" y="17" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#F5D0FE">TypeScript</text>
+      <rect x="112" y="0" width="96" height="26" rx="7" fill="#E879F9" fill-opacity="0.15" />
+      <text x="160" y="17" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#F5D0FE">Qwen / Exo</text>
+      <rect x="218" y="0" width="110" height="26" rx="7" fill="#FFFFFF" fill-opacity="0.05" />
+      <text x="273" y="17" text-anchor="middle" class="mono" font-size="11.5" fill="#CBD5E1">MCP Agents</text>
+    </g>
+  </g>
+
+  
+  
+  <g transform="translate(0, 220)">
+    <rect width="386" height="310" rx="22" fill="url(#card-grad)" stroke="url(#border-subtle)" stroke-width="1.5" />
+    <text x="28" y="40" class="mono" font-size="11" font-weight="700" fill="#34D399" letter-spacing="1.2">03 // CLUSTER TELEMETRY</text>
+    <text x="28" y="74" class="sans" font-size="22" font-weight="800" fill="#F8FAFC">Pi-Desktop Suite</text>
+    <text x="28" y="106" class="sans" font-size="14" fill="#94A3B8">Cross-platform Electron &amp; React</text>
+    <text x="28" y="128" class="sans" font-size="14" fill="#94A3B8">control client paired with Linux</text>
+    <text x="28" y="150" class="sans" font-size="14" fill="#94A3B8">Systemd daemons for real-time</text>
+    <text x="28" y="172" class="sans" font-size="14" fill="#94A3B8">telemetry &amp; fleet diagnostics.</text>
+
+    <line x1="28" y1="204" x2="358" y2="204" stroke="#FFFFFF" stroke-opacity="0.08" />
+    <text x="28" y="232" class="mono" font-size="11.5" fill="#64748B">RUNTIME STACK</text>
+    <text x="28" y="256" class="mono" font-size="12.5" fill="#E2E8F0">React • Vite • Electron</text>
+    <text x="28" y="278" class="mono" font-size="12.5" fill="#34D399">Systemd IPC • Debian 12</text>
+  </g>
+
+  
+  <g transform="translate(407, 220)">
+    <rect width="386" height="310" rx="22" fill="url(#card-grad)" stroke="url(#border-subtle)" stroke-width="1.5" />
+    <text x="28" y="40" class="mono" font-size="11" font-weight="700" fill="#F472B6" letter-spacing="1.2">04 // NETWORK DIAGNOSTICS</text>
+    <text x="28" y="74" class="sans" font-size="22" font-weight="800" fill="#F8FAFC">NetProbe MV3</text>
+    <text x="28" y="106" class="sans" font-size="14" fill="#94A3B8">Manifest V3 browser extension</text>
+    <text x="28" y="128" class="sans" font-size="14" fill="#94A3B8">engineered for transparent proxy</text>
+    <text x="28" y="150" class="sans" font-size="14" fill="#94A3B8">&amp; QWRT soft-router environments</text>
+    <text x="28" y="172" class="sans" font-size="14" fill="#94A3B8">to inspect true egress &amp; DNS.</text>
+
+    <line x1="28" y1="204" x2="358" y2="204" stroke="#FFFFFF" stroke-opacity="0.08" />
+    <text x="28" y="232" class="mono" font-size="11.5" fill="#64748B">PROTOCOL DEPTH</text>
+    <text x="28" y="256" class="mono" font-size="12.5" fill="#E2E8F0">Dual-Stack IPv4/IPv6 • WHOIS</text>
+    <text x="28" y="278" class="mono" font-size="12.5" fill="#F472B6">WireGuard • AdGuard • MosDNS</text>
+  </g>
+
+  
+  <g transform="translate(814, 220)">
+    <rect width="386" height="310" rx="22" fill="url(#card-grad)" stroke="url(#border-subtle)" stroke-width="1.5" />
+    <text x="28" y="40" class="mono" font-size="11" font-weight="700" fill="#38BDF8" letter-spacing="1.2">05 // ENGINEERING ARSENAL</text>
+    <text x="28" y="74" class="sans" font-size="22" font-weight="800" fill="#F8FAFC">Full-Stack Matrix</text>
+
+    <text x="28" y="114" class="mono" font-size="11" fill="#64748B">CORE LANGUAGES</text>
+    <text x="28" y="134" class="mono" font-size="13" font-weight="600" fill="#F8FAFC">Go • Rust • TypeScript • Python</text>
+
+    <text x="28" y="168" class="mono" font-size="11" fill="#64748B">APP &amp; INTERFACE</text>
+    <text x="28" y="188" class="mono" font-size="13" font-weight="600" fill="#F8FAFC">React • Next.js • NestJS • Electron</text>
+
+    <text x="28" y="222" class="mono" font-size="11" fill="#64748B">INFRA &amp; VIRTUALIZATION</text>
+    <text x="28" y="242" class="mono" font-size="13" font-weight="600" fill="#38BDF8">Debian • KVM • Docker • Nginx</text>
+
+    <text x="28" y="276" class="mono" font-size="11" fill="#64748B">FIRMWARE &amp; EDGE</text>
+    <text x="28" y="294" class="mono" font-size="13" font-weight="600" fill="#E879F9">OpenWrt • QWRT • ImmortalWrt</text>
+  </g>
+</svg>
