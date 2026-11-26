@@ -13,8 +13,8 @@
       <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.03" />
     </linearGradient>
     <style>
-      .sans { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif; }
-      .mono { font-family: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", Roboto, sans-serif; }
+      .mono { font-family: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Monaco, Consolas, "PingFang SC", "Microsoft YaHei", monospace; }
     </style>
   </defs>
 
@@ -24,18 +24,18 @@
     <rect width="590" height="200" rx="22" fill="url(#card-grad)" stroke="url(#border-subtle)" stroke-width="1.5" />
     <circle cx="540" cy="40" r="85" fill="#38BDF8" fill-opacity="0.08" />
     
-    <text x="32" y="42" class="mono" font-size="11.5" font-weight="700" fill="#38BDF8" letter-spacing="1.2">01 // DISTRIBUTED CONTROL PLANE</text>
-    <text x="32" y="78" class="sans" font-size="26" font-weight="800" fill="#F8FAFC">ClawMesh Orchestrator</text>
-    <text x="32" y="110" class="sans" font-size="14.5" fill="#94A3B8">Centralized automation platform managing 10,000+ edge compute</text>
-    <text x="32" y="132" class="sans" font-size="14.5" fill="#94A3B8">nodes, multi-hop FRP relays, and self-healing proxy topologies.</text>
+    <text x="32" y="42" class="sans" font-size="12" font-weight="700" fill="#38BDF8" letter-spacing="1">01 // 分布式控制与调度中台</text>
+    <text x="32" y="78" class="sans" font-size="25" font-weight="800" fill="#F8FAFC">ClawMesh 节点编排中枢</text>
+    <text x="32" y="110" class="sans" font-size="14.5" fill="#94A3B8">面向万级边缘计算节点（Pi Network / PCDN）与跨区域 FRP 中继网络</text>
+    <text x="32" y="133" class="sans" font-size="14.5" fill="#94A3B8">的集中式自动化运维平台，实现三层拓扑监控、心跳探活与故障自愈。</text>
 
     <g transform="translate(32, 154)">
       <rect x="0" y="0" width="64" height="26" rx="7" fill="#38BDF8" fill-opacity="0.12" />
       <text x="32" y="17" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#7DD3FC">Go</text>
       <rect x="74" y="0" width="72" height="26" rx="7" fill="#38BDF8" fill-opacity="0.12" />
       <text x="110" y="17" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#7DD3FC">Rust</text>
-      <rect x="156" y="0" width="118" height="26" rx="7" fill="#FFFFFF" fill-opacity="0.05" />
-      <text x="215" y="17" text-anchor="middle" class="mono" font-size="11.5" fill="#CBD5E1">3-Tier Mesh</text>
+      <rect x="156" y="0" width="114" height="26" rx="7" fill="#FFFFFF" fill-opacity="0.05" />
+      <text x="213" y="17" text-anchor="middle" class="sans" font-size="11.5" fill="#CBD5E1">三层混合组网</text>
     </g>
   </g>
 
@@ -44,18 +44,18 @@
     <rect width="590" height="200" rx="22" fill="url(#accent-card)" stroke="url(#border-subtle)" stroke-width="1.5" />
     <circle cx="540" cy="40" r="85" fill="#C084FC" fill-opacity="0.12" />
 
-    <text x="32" y="42" class="mono" font-size="11.5" font-weight="700" fill="#E879F9" letter-spacing="1.2">02 // HIGH-CONCURRENCY AI GATEWAY</text>
-    <text x="32" y="78" class="sans" font-size="26" font-weight="800" fill="#F8FAFC">ZhinAPI Model Router</text>
-    <text x="32" y="110" class="sans" font-size="14.5" fill="#94A3B8">Unified LLM aggregation gateway (api.zhincloud.cn) with upstream</text>
-    <text x="32" y="132" class="sans" font-size="14.5" fill="#94A3B8">load balancing, protocol translation &amp; autonomous MCP workflows.</text>
+    <text x="32" y="42" class="sans" font-size="12" font-weight="700" fill="#E879F9" letter-spacing="1">02 // 高并发大模型路由网关</text>
+    <text x="32" y="78" class="sans" font-size="25" font-weight="800" fill="#F8FAFC">ZhinAPI 统一模型分发网关</text>
+    <text x="32" y="110" class="sans" font-size="14.5" fill="#94A3B8">自建多模型聚合分发与接口转换中台（api.zhincloud.cn），支持多上游</text>
+    <text x="32" y="133" class="sans" font-size="14.5" fill="#94A3B8">智能负载均衡、异构协议无感适配与自动化 MCP Agent 业务流调度。</text>
 
     <g transform="translate(32, 154)">
       <rect x="0" y="0" width="102" height="26" rx="7" fill="#E879F9" fill-opacity="0.15" />
       <text x="51" y="17" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#F5D0FE">TypeScript</text>
       <rect x="112" y="0" width="96" height="26" rx="7" fill="#E879F9" fill-opacity="0.15" />
       <text x="160" y="17" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#F5D0FE">Qwen / Exo</text>
-      <rect x="218" y="0" width="110" height="26" rx="7" fill="#FFFFFF" fill-opacity="0.05" />
-      <text x="273" y="17" text-anchor="middle" class="mono" font-size="11.5" fill="#CBD5E1">MCP Agents</text>
+      <rect x="218" y="0" width="118" height="26" rx="7" fill="#FFFFFF" fill-opacity="0.05" />
+      <text x="277" y="17" text-anchor="middle" class="sans" font-size="11.5" fill="#CBD5E1">MCP 智能体流</text>
     </g>
   </g>
 
@@ -63,15 +63,15 @@
   
   <g transform="translate(0, 220)">
     <rect width="386" height="310" rx="22" fill="url(#card-grad)" stroke="url(#border-subtle)" stroke-width="1.5" />
-    <text x="28" y="40" class="mono" font-size="11" font-weight="700" fill="#34D399" letter-spacing="1.2">03 // CLUSTER TELEMETRY</text>
-    <text x="28" y="74" class="sans" font-size="22" font-weight="800" fill="#F8FAFC">Pi-Desktop Suite</text>
-    <text x="28" y="106" class="sans" font-size="14" fill="#94A3B8">Cross-platform Electron &amp; React</text>
-    <text x="28" y="128" class="sans" font-size="14" fill="#94A3B8">control client paired with Linux</text>
-    <text x="28" y="150" class="sans" font-size="14" fill="#94A3B8">Systemd daemons for real-time</text>
-    <text x="28" y="172" class="sans" font-size="14" fill="#94A3B8">telemetry &amp; fleet diagnostics.</text>
+    <text x="28" y="40" class="sans" font-size="11.5" font-weight="700" fill="#34D399" letter-spacing="1">03 // 跨平台集群实时遥测</text>
+    <text x="28" y="74" class="sans" font-size="22" font-weight="800" fill="#F8FAFC">Pi-Desktop 监控客户端</text>
+    <text x="28" y="106" class="sans" font-size="14" fill="#94A3B8">基于 Electron 与 React 打造的桌面端</text>
+    <text x="28" y="129" class="sans" font-size="14" fill="#94A3B8">节点集群控制中心，深度结合 Linux</text>
+    <text x="28" y="152" class="sans" font-size="14" fill="#94A3B8">底层 Systemd 守护进程，实现毫秒级</text>
+    <text x="28" y="175" class="sans" font-size="14" fill="#94A3B8">状态同步、硬件自检与批量指令下发。</text>
 
-    <line x1="28" y1="204" x2="358" y2="204" stroke="#FFFFFF" stroke-opacity="0.08" />
-    <text x="28" y="232" class="mono" font-size="11.5" fill="#64748B">RUNTIME STACK</text>
+    <line x1="28" y1="206" x2="358" y2="206" stroke="#FFFFFF" stroke-opacity="0.08" />
+    <text x="28" y="232" class="sans" font-size="11.5" fill="#64748B">核心运行技术栈</text>
     <text x="28" y="256" class="mono" font-size="12.5" fill="#E2E8F0">React • Vite • Electron</text>
     <text x="28" y="278" class="mono" font-size="12.5" fill="#34D399">Systemd IPC • Debian 12</text>
   </g>
@@ -79,35 +79,35 @@
   
   <g transform="translate(407, 220)">
     <rect width="386" height="310" rx="22" fill="url(#card-grad)" stroke="url(#border-subtle)" stroke-width="1.5" />
-    <text x="28" y="40" class="mono" font-size="11" font-weight="700" fill="#F472B6" letter-spacing="1.2">04 // NETWORK DIAGNOSTICS</text>
-    <text x="28" y="74" class="sans" font-size="22" font-weight="800" fill="#F8FAFC">NetProbe MV3</text>
-    <text x="28" y="106" class="sans" font-size="14" fill="#94A3B8">Manifest V3 browser extension</text>
-    <text x="28" y="128" class="sans" font-size="14" fill="#94A3B8">engineered for transparent proxy</text>
-    <text x="28" y="150" class="sans" font-size="14" fill="#94A3B8">&amp; QWRT soft-router environments</text>
-    <text x="28" y="172" class="sans" font-size="14" fill="#94A3B8">to inspect true egress &amp; DNS.</text>
+    <text x="28" y="40" class="sans" font-size="11.5" font-weight="700" fill="#F472B6" letter-spacing="1">04 // 软路由与网络拓扑探针</text>
+    <text x="28" y="74" class="sans" font-size="22" font-weight="800" fill="#F8FAFC">NetProbe MV3 浏览器扩展</text>
+    <text x="28" y="106" class="sans" font-size="14" fill="#94A3B8">专为复杂透明代理与 QWRT 软路由</text>
+    <text x="28" y="129" class="sans" font-size="14" fill="#94A3B8">环境设计的 Manifest V3 网络探针，</text>
+    <text x="28" y="152" class="sans" font-size="14" fill="#94A3B8">实时探测真实出口 IP、IPv4/IPv6</text>
+    <text x="28" y="175" class="sans" font-size="14" fill="#94A3B8">双栈 DNS 解析、CDN 状态与 WHOIS。</text>
 
-    <line x1="28" y1="204" x2="358" y2="204" stroke="#FFFFFF" stroke-opacity="0.08" />
-    <text x="28" y="232" class="mono" font-size="11.5" fill="#64748B">PROTOCOL DEPTH</text>
-    <text x="28" y="256" class="mono" font-size="12.5" fill="#E2E8F0">Dual-Stack IPv4/IPv6 • WHOIS</text>
+    <line x1="28" y1="206" x2="358" y2="206" stroke="#FFFFFF" stroke-opacity="0.08" />
+    <text x="28" y="232" class="sans" font-size="11.5" fill="#64748B">底层协议覆盖</text>
+    <text x="28" y="256" class="mono" font-size="12.5" fill="#E2E8F0">双栈 IPv4/IPv6 • WHOIS 拓扑</text>
     <text x="28" y="278" class="mono" font-size="12.5" fill="#F472B6">WireGuard • AdGuard • MosDNS</text>
   </g>
 
   
   <g transform="translate(814, 220)">
     <rect width="386" height="310" rx="22" fill="url(#card-grad)" stroke="url(#border-subtle)" stroke-width="1.5" />
-    <text x="28" y="40" class="mono" font-size="11" font-weight="700" fill="#38BDF8" letter-spacing="1.2">05 // ENGINEERING ARSENAL</text>
-    <text x="28" y="74" class="sans" font-size="22" font-weight="800" fill="#F8FAFC">Full-Stack Matrix</text>
+    <text x="28" y="40" class="sans" font-size="11.5" font-weight="700" fill="#38BDF8" letter-spacing="1">05 // 全栈工程武器库</text>
+    <text x="28" y="74" class="sans" font-size="22" font-weight="800" fill="#F8FAFC">核心技术生态矩阵</text>
 
-    <text x="28" y="114" class="mono" font-size="11" fill="#64748B">CORE LANGUAGES</text>
+    <text x="28" y="114" class="sans" font-size="11.5" fill="#64748B">后端与系统级语言</text>
     <text x="28" y="134" class="mono" font-size="13" font-weight="600" fill="#F8FAFC">Go • Rust • TypeScript • Python</text>
 
-    <text x="28" y="168" class="mono" font-size="11" fill="#64748B">APP &amp; INTERFACE</text>
+    <text x="28" y="168" class="sans" font-size="11.5" fill="#64748B">现代前端与跨平台应用</text>
     <text x="28" y="188" class="mono" font-size="13" font-weight="600" fill="#F8FAFC">React • Next.js • NestJS • Electron</text>
 
-    <text x="28" y="222" class="mono" font-size="11" fill="#64748B">INFRA &amp; VIRTUALIZATION</text>
+    <text x="28" y="222" class="sans" font-size="11.5" fill="#64748B">基础设施与虚拟化集群</text>
     <text x="28" y="242" class="mono" font-size="13" font-weight="600" fill="#38BDF8">Debian • KVM • Docker • Nginx</text>
 
-    <text x="28" y="276" class="mono" font-size="11" fill="#64748B">FIRMWARE &amp; EDGE</text>
+    <text x="28" y="276" class="sans" font-size="11.5" fill="#64748B">嵌入式固件与网络定制</text>
     <text x="28" y="294" class="mono" font-size="13" font-weight="600" fill="#E879F9">OpenWrt • QWRT • ImmortalWrt</text>
   </g>
 </svg>
